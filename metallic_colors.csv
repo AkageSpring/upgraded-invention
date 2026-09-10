@@ -1,76 +1,76 @@
-number,name,id
-1,Black,0
-2,Carbon Black,147
-3,Graphite,1
-4,Anthracite Black,11
-5,Black Steel,2
-6,Dark Steel,3
-7,Silver,4
-8,Bluish Silver,5
-9,Rolled Steel,6
-10,Shadow Silver,7
-11,Stone Silver,8
-12,Midnight Silver,9
-13,Cast Iron Silver,10
-14,Red,27
-15,Torino Red,28
-16,Formula Red,29
-17,Lava Red,150
-18,Blaze Red,30
-19,Grace Red,31
-20,Garnet Red,32
-21,Sunset Red,33
-22,Cabernet Red,34
-23,Wine Red,143
-24,Candy Red,35
-25,Hot Pink,135
-26,Pfister Pink,137
-27,Salmon Pink,136
-28,Sunrise Orange,36
-29,Orange,38
-30,Bright Orange,138
-31,Gold,99
-32,Bronze,90
-33,Yellow,88
-34,Race Yellow,89
-35,Dew Yellow,91
-36,Dark Green,49
-37,Racing Green,50
-38,Sea Green,51
-39,Olive Green,52
-40,Bright Green,53
-41,Gasoline Green,54
-42,Lime Green,92
-43,Midnight Blue,141
-44,Galaxy Blue,61
-45,Dark Blue,62
-46,Saxon Blue,63
-47,Blue,64
-48,Mariner Blue,65
-49,Harbor Blue,66
-50,Diamond Blue,67
-51,Surf Blue,68
-52,Nautical Blue,69
-53,Racing Blue,73
-54,Ultra Blue,70
-55,Light Blue,74
-56,Chocolate Brown,96
-57,Bison Brown,101
-58,Creek Brown,95
-59,Feltzer Brown,94
-60,Maple Brown,97
-61,Beechwood Brown,103
-62,Sienna Brown,104
-63,Saddle Brown,98
-64,Moss Brown,100
-65,Woodbeech Brown,102
-66,Straw Brown,99
-67,Sandy Brown,105
-68,Bleached Brown,106
-69,Schafter Purple,71
-70,Spinnaker Purple,72
-71,Midnight Purple,146
-72,Bright Purple,145
-73,Cream,107
-74,Ice White,111
-75,Frost White,112
+number,name,hex
+1,Black,#080808
+2,Carbon Black,#080808
+3,Graphite,#0F0F0F
+4,Anthracite Black,#121110
+5,Black Steel,#1C1E21
+6,Dark Steel,#292C2E
+7,Silver,#5A5E66
+8,Bluish Silver,#777C87
+9,Rolled Steel,#515459
+10,Shadow Silver,#323B47
+11,Stone Silver,#333333
+12,Midnight Silver,#1F2226
+13,Cast Iron Silver,#23292E
+14,Red,#690000
+15,Torino Red,#8A0B00
+16,Formula Red,#6B0000
+17,Lava Red,#6B0B00
+18,Blaze Red,#611009
+19,Grace Red,#4A0A0A
+20,Garnet Red,#470E0E
+21,Sunset Red,#380C00
+22,Cabernet Red,#26030B
+23,Wine Red,#080000
+24,Candy Red,#630012
+25,Hot Pink,#B01259
+26,Pfister Pink,#8F2F55
+27,Salmon Pink,#F69799
+28,Sunrise Orange,#802800
+29,Orange,#BD4800
+30,Bright Orange,#C26610
+31,Gold,#5E5343
+32,Bronze,#4A341B
+33,Yellow,#F5890F
+34,Race Yellow,#D9A600
+35,Dew Yellow,#A2A827
+36,Dark Green,#001207
+37,Racing Green,#001A0B
+38,Sea Green,#00211E
+39,Olive Green,#1F261E
+40,Bright Green,#003805
+41,Gasoline Green,#0B4145
+42,Lime Green,#568F00
+43,Midnight Blue,#000108
+44,Galaxy Blue,#000D14
+45,Dark Blue,#001029
+46,Saxon Blue,#1C2F4F
+47,Blue,#001B57
+48,Mariner Blue,#3B4E78
+49,Harbor Blue,#272D3B
+50,Diamond Blue,#95B2DB
+51,Surf Blue,#3E627A
+52,Nautical Blue,#1C3140
+53,Racing Blue,#0E316D
+54,Ultra Blue,#0055C4
+55,Light Blue,#395A83
+56,Chocolate Brown,#120D07
+57,Bison Brown,#221918
+58,Creek Brown,#262117
+59,Feltzer Brown,#291B06
+60,Maple Brown,#332111
+61,Beechwood Brown,#241309
+62,Sienna Brown,#3B1700
+63,Saddle Brown,#3D3023
+64,Moss Brown,#37382B
+65,Woodbeech Brown,#575036
+66,Straw Brown,#5E5343
+67,Sandy Brown,#6E6246
+68,Bleached Brown,#998D73
+69,Schafter Purple,#1A182E
+70,Spinnaker Purple,#161629
+71,Midnight Purple,#00080F
+72,Bright Purple,#320642
+73,Cream,#CFC0A5
+74,Ice White,#F0F0F0
+75,Frost White,#B3B9C9
