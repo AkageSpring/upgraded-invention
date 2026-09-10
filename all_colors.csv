@@ -1,0 +1,224 @@
+id,name,hex
+0,Metallic Black,#080808
+1,Metallic Graphite Black,#0F0F0F
+2,Metallic Black Steal,#1C1E21
+3,Metallic Dark Silver,#292C2E
+4,Metallic Silver,#5A5E66
+5,Metallic Blue Silver,#777C87
+6,Metallic Steel Gray,#515459
+7,Metallic Shadow Silver,#323B47
+8,Metallic Stone Silver,#333333
+9,Metallic Midnight Silver,#1F2226
+10,Metallic Gun Metal,#23292E
+11,Metallic Anthracite Grey,#121110
+12,Matte Black,#050505
+13,Matte Gray,#121212
+14,Matte Light Grey,#2F3233
+15,Util Black*,#080808
+16,Util Black Poly*,#121212
+17,Util Dark silver*,#202224
+18,Util Silver*,#575961
+19,Util Gun Metal*,#23292E
+20,Util Shadow Silver*,#323B47
+21,Worn Black*,#0F1012
+22,Worn Graphite*,#212121
+23,Worn Silver Grey*,#5B5D5E
+24,Worn Silver*,#888A99
+25,Worn Blue Silver*,#697187
+26,Worn Shadow Silver*,#3B4654
+27,Metallic Red,#690000
+28,Metallic Torino Red,#8A0B00
+29,Metallic Formula Red,#6B0000
+30,Metallic Blaze Red,#611009
+31,Metallic Graceful Red,#4A0A0A
+32,Metallic Garnet Red,#470E0E
+33,Metallic Desert Red,#380C00
+34,Metallic Cabernet Red,#26030B
+35,Metallic Candy Red,#630012
+36,Metallic Sunrise Orange,#802800
+37,Metallic Classic Gold*,#6E4F2D
+38,Metallic Orange,#BD4800
+39,Matte Red,#780000
+40,Matte Dark Red,#360000
+41,Matte Orange,#AB3F00
+42,Matte Yellow,#DE7E00
+43,Util Red*,#520000
+44,Util Bright Red*,#8C0404
+45,Util Garnet Red*,#4A1000
+46,Worn Red*,#592525
+47,Worn Golden Red*,#754231
+48,Worn Dark Red*,#210804
+49,Metallic Dark Green,#001207
+50,Metallic Racing Green,#001A0B
+51,Metallic Sea Green,#00211E
+52,Metallic Olive Green,#1F261E
+53,Metallic Green,#003805
+54,Metallic Gasoline Blue Green,#0B4145
+55,Matte Lime Green,#418503
+56,Util Dark Green*,#0F1F15
+57,Util Green*,#023613
+58,Worn Dark Green*,#162419
+59,Worn Green*,#2A3625
+60,Worn Sea Wash*,#455C56
+61,Metallic Midnight Blue,#000D14
+62,Metallic Dark Blue,#001029
+63,Metallic Saxony Blue,#1C2F4F
+64,Metallic Blue,#001B57
+65,Metallic Mariner Blue,#3B4E78
+66,Metallic Harbor Blue,#272D3B
+67,Metallic Diamond Blue,#95B2DB
+68,Metallic Surf Blue,#3E627A
+69,Metallic Nautical Blue,#1C3140
+70,Metallic Bright Blue,#0055C4
+71,Metallic Purple Blue,#1A182E
+72,Metallic Spinnaker Blue,#161629
+73,Metallic Ultra Blue,#0E316D
+74,Metallic Bright Blue,#395A83
+75,Util Dark Blue*,#09142E
+76,Util Midnight Blue*,#0F1021
+77,Util Blue*,#152A52
+78,Util Sea Foam Blue*,#324654
+79,Uil Lightning blue*,#152563
+80,Util Maui Blue Poly*,#223BA1
+81,Util Bright Blue*,#1F1FA1
+82,Matte Dark Blue,#030E2E
+83,Matte Blue,#0F1E73
+84,Matte Midnight Blue,#001C32
+85,Worn Dark blue*,#2A3754
+86,Worn Blue*,#303C5E
+87,Worn Light blue*,#3B6796
+88,Metallic Taxi Yellow,#F5890F
+89,Metallic Race Yellow,#D9A600
+90,Metallic Bronze,#4A341B
+91,Metallic Yellow Bird,#A2A827
+92,Metallic Lime,#568F00
+93,Metallic Champagne*,#57514B
+94,Metallic Pueblo Beige,#291B06
+95,Metallic Dark Ivory,#262117
+96,Metallic Choco Brown,#120D07
+97,Metallic Golden Brown,#332111
+98,Metallic Light Brown,#3D3023
+99,Metallic Straw Beige,#5E5343
+100,Metallic Moss Brown,#37382B
+101,Metallic Biston Brown,#221918
+102,Metallic Beechwood,#575036
+103,Metallic Dark Beechwood,#241309
+104,Metallic Choco Orange,#3B1700
+105,Metallic Beach Sand,#6E6246
+106,Metallic Sun Bleeched Sand,#998D73
+107,Metallic Cream,#CFC0A5
+108,Util Brown*,#1F1709
+109,Util Medium Brown*,#3D311D
+110,Util Light Brown*,#665847
+111,Metallic White,#F0F0F0
+112,Metallic Frost White,#B3B9C9
+113,Worn Honey Beige*,#615F55
+114,Worn Brown*,#241E1A
+115,Worn Dark Brown*,#171413
+116,Worn straw beige*,#3B372F
+117,Brushed Steel,#3B4045
+118,Brushed Black steel,#1A1E21
+119,Brushed Aluminium,#5E646B
+120,Chrome,#000000
+121,Worn Off White*,#B0B0B0
+122,Util Off White*,#999999
+123,Worn Orange*,#B56519
+124,Worn Light Orange*,#C45C33
+125,Metallic Securicor Green*,#47783C
+126,Worn Taxi Yellow*,#BA8425
+127,police car blue*,#2A77A1
+128,Matte Green,#243022
+129,Matte Brown*,#6B5F54
+130,Worn Orange*,#C96E34
+131,Matte White,#D9D9D9
+132,Worn White*,#F0F0F0
+133,Worn Olive Army Green,#3F4228
+134,Pure White*,#FFFFFF
+135,Hot Pink,#B01259
+136,Salmon pink,#F69799
+137,Metallic Vermillion Pink,#8F2F55
+138,Orange,#C26610
+139,Green,#69BD45
+140,Blue,#00AEEF
+141,Metallic Black Blue,#000108
+142,Metallic Black Purple,#050008
+143,Metallic Black Red,#080000
+144,hunter green,#565751
+145,Metallic Purple,#320642
+146,Metaillic V Dark Blue,#00080F
+147,MODSHOP BLACK1,#080808
+148,Matte Purple,#320642
+149,Matte Dark Purple,#050008
+150,Metallic Lava Red,#6B0B00
+151,Matte Forest Green,#121710
+152,Matte Olive Drab,#323325
+153,Matte Desert Brown,#3B352D
+154,Matte Desert Tan,#706656
+155,Matte Foilage Green,#2B302B
+156,DEFAULT ALLOY COLOR*,#414347
+157,Epsilon Blue,#6690B5
+158,MP100 GOLD,#47391B
+159,MP100 GOLD SATIN,#47391B
+160,MP100 GOLD SPEC*,#FFD859
+161,Anodized Red Pearl,Anodized Red Pearl
+162,Anodized Burgundy Pearl,Anodized Burgundy Pearl
+163,Anodized Purple Pearl,Anodized Purple Pearl
+164,Anodized Blue Pearl,Anodized Blue Pearl
+165,Anodized Green Pearl,Anodized Green Pearl
+166,Anodized Lime Pearl,Anodized Lime Pearl
+167,Anodized Copper Pearl,Anodized Copper Pearl
+168,Anodized Bronze Pearl,Anodized Bronze Pearl
+169,Anodized Champagne Pearl,Anodized Champagne Pearl
+170,Anodized Gold Pearl,Anodized Gold Pearl
+171,Green/Blue Flip,Green/Blue Flip
+172,Green/Red Flip,Green/Red Flip
+173,Green/Brown Flip,Green/Brown Flip
+174,Green/Turquoise Flip,Green/Turquoise Flip
+175,Green/Purple Flip,Green/Purple Flip
+176,Teal/Purple Flip,Teal/Purple Flip
+177,Turquoise/Red Flip,Turquoise/Red Flip
+178,Turquoise/Purple Flip,Turquoise/Purple Flip
+179,Cyan/Red Flip,Cyan/Red Flip
+180,Blue/Pink Flip,Blue/Pink Flip
+181,Blue/Green Flip,Blue/Green Flip
+182,Purple/Red Flip,Purple/Red Flip
+183,Purple/Green Flip,Purple/Green Flip
+184,Magenta/Green Flip,Magenta/Green Flip
+185,Magenta/Yellow Flip,Magenta/Yellow Flip
+186,Burgundy/Green Flip,Burgundy/Green Flip
+187,Magenta/Cyan Flip,Magenta/Cyan Flip
+188,Copper/Purple Flip,Copper/Purple Flip
+189,Magenta/Orange Flip,Magenta/Orange Flip
+190,Red/Orange Flip,Red/Orange Flip
+191,Orange/Purple Flip,Orange/Purple Flip
+192,Orange/Blue Flip,Orange/Blue Flip
+193,White/Purple Flip,White/Purple Flip
+194,Red Rainbow Flip,Red Rainbow Flip
+195,Blue Rainbow Flip,Blue Rainbow Flip
+196,Dark Green Pearl,Dark Green Pearl
+197,Dark Teal Pearl,Dark Teal Pearl
+198,Dark Blue Pearl,Dark Blue Pearl
+199,Dark Purple Pearl,Dark Purple Pearl
+200,Oil Slick Pearl,Oil Slick Pearl
+201,Light Green Pearl,Light Green Pearl
+202,Light Blue Pearl,Light Blue Pearl
+203,Light Purple Pearl,Light Purple Pearl
+204,Light Pink Pearl,Light Pink Pearl
+205,Off White Pearl,Off White Pearl
+206,Soft Pink Pearl,Soft Pink Pearl
+207,Pastel Yellow Pearl,Pastel Yellow Pearl
+208,Pastel Green Pearl,Pastel Green Pearl
+209,Baby Blue Pearl,Baby Blue Pearl
+210,Cream Pearl,Cream Pearl
+211,White Prismatic Pearl,White Prismatic Pearl
+212,Graphite Prismatic Pearl,Graphite Prismatic Pearl
+213,Blue Prismatic Pearl,Blue Prismatic Pearl
+214,Purple Prismatic Pearl,Purple Prismatic Pearl
+215,Pink Prismatic Pearl,Pink Prismatic Pearl
+216,Red Prismatic Pearl,Red Prismatic Pearl
+217,Green Prismatic Pearl,Green Prismatic Pearl
+218,Black Prismatic Pearl,Black Prismatic Pearl
+219,Black Oil Spill Prismatic,Black Oil Spill Prismatic
+220,Black Rainbow Prismatic,Black Rainbow Prismatic
+221,Dark Holographic,Dark Holographic
+222,Light Holographic,Light Holographic

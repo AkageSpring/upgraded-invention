@@ -23,4 +23,8 @@ public class ColorExtractor {
 
         return String.format("#%02X%02X%02X", color.getRed(), color.getGreen(), color.getBlue());
     }
+
+//    public String getApproximateColor(String color) {
+//
+//    }
 }
