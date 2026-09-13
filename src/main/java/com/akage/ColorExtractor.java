@@ -44,21 +44,36 @@ public class ColorExtractor {
         return metallicColors;
     }
 
-    public String getColor(String filePath, int colorNumber) {
+    public ForzaHorizonColor getForzaHorizonColor(String filePath, int colorNumber) {
         BufferedImage image;
         try {
             image = ImageIO.read(new File(filePath));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
         int x = 230 + 82 * (colorNumber - 1);
-        int y = 846;
+        int y1 = 797;
+        int y2 = 877;
+        int argb1 = image.getRGB(x, y1);
+        int argb2 = image.getRGB(x, y2);
+        String hex1 = String.format("%06X", argb1 & 0x00ffffff);
+        ForzaHorizonColor forzaHorizonColor;
+        if (argb1 == argb2) {
+            forzaHorizonColor = new ForzaHorizonColor(hex1);
+        } else {
+            String hex2 = String.format("%06X", argb2 & 0x00ffffff);
+            forzaHorizonColor = new ForzaHorizonColor(hex1, hex2);
+        }
+        return forzaHorizonColor;
+    }
 
-        int rgb = image.getRGB(x, y);
-        Color color = new Color(rgb);
-
-        return String.format("#%02X%02X%02X", color.getRed(), color.getGreen(), color.getBlue());
+    public String getColor(String filePath, int colorNumber) {
+        ForzaHorizonColor forzaHorizonColor = getForzaHorizonColor(filePath, colorNumber);
+        if (!forzaHorizonColor.isTwoColored()) {
+            return "Color: #" + forzaHorizonColor.getHex1();
+        } else {
+            return "Color 1: #" + forzaHorizonColor.getHex1() + "\nColor 2: #" + forzaHorizonColor.getHex2();
+        }
     }
 
     private static int[] hexToRgb(String hex) {
