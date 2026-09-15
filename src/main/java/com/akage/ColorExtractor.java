@@ -76,7 +76,7 @@ public class ColorExtractor {
         }
     }
 
-    private static int[] hexToRgb(String hex) {
+    private int[] hexToRgb(String hex) {
         hex = hex.replace("#", "");
         return new int[]{
                 Integer.parseInt(hex.substring(0, 2), 16),
@@ -85,26 +85,26 @@ public class ColorExtractor {
         };
     }
 
-    private double getColorDifference(String hex1, String hex2) {
+    private int getColorDifference(String hex1, String hex2) {
         int[] rgb1 = hexToRgb(hex1);
         int[] rgb2 = hexToRgb(hex2);
-        int redDifference = rgb1[0] - rgb2[0];
-        int greenDifference = rgb1[1] - rgb2[1];
-        int blueDifference = rgb1[2] - rgb2[2];
-        return Math.sqrt(Math.pow(redDifference, 2) + Math.pow(greenDifference, 2) + Math.pow(blueDifference, 2));
+        int rd = rgb1[0] - rgb2[0];
+        int gd = rgb1[1] - rgb2[1];
+        int bd = rgb1[2] - rgb2[2];
+        return rd * rd + gd * gd + bd * bd;
     }
 
-    public String getBestColor(String userColor, String colorFile) {
+    public String getSimilarColor(String userColor, String colorFile) {
         ArrayList<GameColor> gameColors = loadColors(colorFile);
-        double difference = 999.0;
-        GameColor bestColor = new GameColor(-1, "Unknown Color", "#000000");
+        int minDifference = 195_076;
+        GameColor similarColor = new GameColor(-1, "Unknown Color", "#XXXXXX");
         for (GameColor gameColor : gameColors) {
-            double currentDifference = getColorDifference(userColor, gameColor.hex);
-            if (currentDifference < difference) {
-                difference = currentDifference;
-                bestColor = gameColor;
+            int currentDifference = getColorDifference(userColor, gameColor.hex);
+            if (currentDifference < minDifference) {
+                minDifference = currentDifference;
+                similarColor = gameColor;
             }
         }
-        return bestColor.id + " / 75 " + bestColor.name;
+        return similarColor.id + " / 75 " + similarColor.name;
     }
 }

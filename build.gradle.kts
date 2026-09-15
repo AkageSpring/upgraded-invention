@@ -14,6 +14,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     implementation("org.apache.commons:commons-csv:1.14.1")
+    implementation("com.microsoft.playwright:playwright:1.62.0")
 }
 
 tasks.jar {
